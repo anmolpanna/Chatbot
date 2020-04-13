@@ -1,0 +1,105 @@
+{"intents": [
+        {"tag": "greeting",
+         "patterns": ["Hi there", "How are you", "Is anyone there?","Hey","Hola", "Hello", "Good day"],
+         "responses": ["Hello, thanks for asking", "Good to see you again", "Hi there, how can I help?"],
+         "context": [""]
+        },
+        {"tag": "goodbye",
+         "patterns": ["Bye", "See you later", "Goodbye","thanks see you later","Nice chatting to you, bye", "Till next time"],
+         "responses": ["welcome! Glad to be of help","You are welcome","My Pleasure","See you!", "Have a nice day", "Bye! Come back again soon."],
+         "context": [""]
+        },
+        {"tag": "thanks",
+         "patterns": ["Thanks", "Thank you", "That's helpful", "Awesome, thanks", "Thanks for helping me"],
+         "responses": ["Happy to help!", "Any time!", "My pleasure"],
+         "context": [""]
+        },
+        {"tag": "noanswer",
+         "patterns": [],
+         "responses": ["Sorry, can't understand you", "Please give me more info", "Not sure I understand"],
+         "context": [""]
+        },
+        {"tag": "options",
+         "patterns": ["How you could help me?", "What you can do?", "What help you provide?", "How you can be helpful?", "What support is offered"],
+         "responses": ["I can guide you through Adverse drug reaction list, Blood pressure tracking, Hospitals and Pharmacies", "Offering support for Adverse drug reaction, Blood pressure, Hospitals and Pharmacies"],
+         "context": [""]
+        },
+		{"tag": "support",
+         "patterns": ["support","financial support","economic support"],
+         "responses": ["Which kind of support would you like to know more about?individual or business"],
+         "context": [""]
+        },
+        {"tag": "individual",
+         "patterns": ["support for individuals","individual support","individual","financial support for business"],
+         "responses": ["There are three types of support for individuals: CERB, EI benefits and Other support. Which one would you like to know about?"],
+         "context": [""]
+        },
+		{"tag": "business",
+         "patterns": ["business","support for busines", "business support","financial support  for business","business" ],
+         "responses": ["This page can help you : https://www.canada.ca/en/department-finance/economic-response-plan.html?topic=Economic+and+financial+support&economic=Support+for+businesses#businesses"],
+         "context": [""]
+        },
+        {"tag": "cerb",
+         "patterns": ["cerb","what is cerb", "what is canada emergencey response benfits", "how to apply for cerb" ],
+         "responses": ["Here's the page you can view : https://www.canada.ca/en/services/benefits/ei/cerb-application.html?topic=Economic+and+financial+support&economic=Support+for+individuals&individuals=The+Canada+Emergency+Response+Benefit+%28CERB%29"],
+         "context": [""]
+        },
+		{"tag": "ei",
+         "patterns": ["ei","what is ei", "employee insurance","employee insurance benefits","ei benefits","other benefits" ],
+         "responses": ["This page can help you : https://www.canada.ca/en/services/benefits/ei/ei-sickness/qualify.html?topic=Economic+and+financial+support&economic=Support+for+individuals&individuals=Improved+access+to+Employment+Insurance"],
+         "context": [""]
+        },
+		{"tag": "coronavirus",
+         "patterns": ["Coronavirus disease","novel coronavirus","what is coronavirus", "COVID-19", "pandameic", "convid-19 outbreak"],
+         "responses": ["What COVID-19 information do you need?","This page can help you : https://www.who.int/health-topics/coronavirus#tab=tab_1"],
+         "context": [""]
+        },
+		{"tag": "prevention",
+         "patterns": ["prevention","how to prevent", "COVID-19 prevention measures"],
+         "responses": ["Wash your hands regularly with soap and water, or clean them with alcohol-based hand rub", "Maintain at least 1 metre distance between you and people coughing or sneezing.","Avoid touching your face","Cover your mouth and nose when coughing or sneezing","Stay home if you feel unwell","Refrain from smoking and other activities that weaken the lungs","This page can help you : https://www.who.int/health-topics/coronavirus#tab=tab_2"],
+         "context": [""]
+        },
+		{"tag": "symptoms",
+         "patterns": ["symptoms","how does coronavirus affect", "COVID-19 symptoms"],
+         "responses": ["Common symptoms include: fever, tiredness, dry cough","Other symptoms include: shortness of breath, aches and pains, sore throat","This page can help you : https://www.who.int/health-topics/coronavirus#tab=tab_3"],
+         "context": [""]
+        },
+		{"tag": "update",
+         "patterns": ["update","medical updates",""],
+         "responses": ["This page can help you : https://www.who.int/emergencies/diseases/novel-coronavirus-2019"],
+         "context": [""]
+        },
+		{"tag": "cases",
+         "patterns": ["new cases","deaths","confirmed cases","stats of cases","stats of deaths","update of cases","live count","today's cases","search by area","search by country"],
+         "responses": ["This page can help you https://who.sprinklr.com/"],
+         "context": [""]
+        },
+		{"tag": "video",
+         "patterns": ["helpful videos","videos","convid-19 videos"],
+         "responses": [" watch this video https://www.youtube.com/watch?time_continue=2&v=mOV1aBVYKGA&feature=emb_logo"],
+         "context": [""]
+        },
+		{"tag": "assessment",
+         "patterns": ["take a self-assessment","assessment","how to determinte","do i have coronavirus"],
+         "responses": ["This page can help you https://www.canada.ca/en/public-health/services/diseases/coronavirus-disease-covid-19.html?utm_campaign=not-applicable&utm_medium=vanity-url&utm_source=canada-ca_coronavirus"],
+         "context": [""]
+        },
+		{"tag": "cases in canada",
+         "patterns": ["coronavirus disease update","covid-19 outbreak in canada","cases in canada","risk to canadians","how canada is monitoring covid-19"],
+         "responses": ["This page can help you https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection.html?topic=tilelink#a2","The number of COVID-19 total cases in Quebec was 12,846 as of April 12th, 2020","COVID-19 is a serious health threat, and the situation is evolving daily. The risk will vary between and within communities, but given the increasing number of cases in Canada, the risk to Canadians is considered high.","There is an increased risk of more severe outcomes for Canadians:aged 65 and over, with compromised immune systems, with underlying medical conditions"],
+         "context": [""]
+        },
+		{"tag": "travellers",
+         "patterns": ["how to travel","when can I travel","can I go out","travel health notice","risk of trav]"],
+         "responses": ["This page can help you https://www.canada.ca/en/public-health/services/diseases/2019-novel-coronavirus-infection/latest-travel-health-advice.html#non-essential","avoid all non-essential travel outside of Canada","stay at home and not travel outside of Canada is the best way to protect yourself",""],
+         "context": [""]
+        },
+		{"tag": " Health and safety",
+         "patterns": ["preventions and risks","symptoms and treatment","being prepared","drug and medical device supply","travel safety"],
+         "responses": ["we have this found page, which can answer most of questions https://www.ontario.ca/page/2019-novel-coronavirus#section-3"],
+         "context": [""]
+        }
+
+		
+   ]
+}
